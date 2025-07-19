@@ -4,7 +4,7 @@ body {
 
 #text {
 	background-color: #0a0a23;
-	color: #ffffff;
+	color: b;
 	padding: 10px;
 }
 
@@ -12,18 +12,29 @@ body {
 	max-width: 500px;
 	max-height: 400px;
 	background-color: #ffffff;
-	color: #ffffff;
+	color: white;
 	margin: 30px auto 0px;
 	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 #controls,
 #stats {
 	border: 1px solid #0a0a23;
-	padding: 5px;
+	padding: 10px;
 	color: #0a0a23;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
 
+#text {
+	text-align: center;
+}
 #monsterStats {
 	display: none;
 	border: 1px solid #0a0a23;
